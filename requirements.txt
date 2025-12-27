@@ -1,0 +1,22 @@
+# LangChain y Agentes
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-openai==0.2.0
+langgraph==0.2.20
+
+# Base de Datos
+sqlalchemy==2.0.35
+
+# Integraciones de Bases de Datos
+langchain-sqlalchemy==0.2.6
+psycopg2-binary==2.9.6 
+
+# Estructura de Datos y Validación
+pydantic==2.9.1
+python-dotenv==1.0.1
+
+# Interfaz y Visualización
+streamlit==1.38.0
+plotly==5.24.0
+pandas==2.2.2
+numpy==1.26.4
