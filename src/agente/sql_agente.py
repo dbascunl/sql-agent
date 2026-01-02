@@ -13,7 +13,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 # 2. Instanciar Modelos
 # Modelo de lenguaje principal
-llm = ChatOpenAI(model='gpt-4o', temperature=50, api_key=api_key)
+llm = ChatOpenAI(model='gpt-4o', temperature=0, api_key=api_key)
 # Modelo estructurado para la respuesta final
 structured_llm = llm.with_structured_output(VisualResponse)
 
